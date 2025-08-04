@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bodycolor: #4d8b55;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Sansita Swashed", "cursive";
+}
+
+p,
+.buttons a {
+    font-family: "Oswald", sans-serif;
+}
+
+#about,
+#menu {
+    background-image: url(../img/leaves_pattern-469e0d34.png);
+    background-color: var(--bodycolor);
+}
